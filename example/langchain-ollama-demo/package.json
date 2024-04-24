@@ -1,0 +1,18 @@
+{
+  "name": "langchain-ollama-demo",
+  "version": "1.0.0",
+  "description": "a demo using langchain and ollama to provide an enhanced chat experience for user.",
+  "main": "main.js",
+  "author": "Andrew Elliot",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "play": "node main.js"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^5.0.1",
+    "@langchain/community": "^0.0.51",
+    "cheerio": "^1.0.0-rc.12",
+    "langchain": "^0.1.35"
+  }
+}
